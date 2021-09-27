@@ -1,0 +1,6 @@
+# site.yml
+---
+- hosts: all
+  roles:
+    - cloudalchemy.node_exporter
+    - dockerlab

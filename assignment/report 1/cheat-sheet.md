@@ -5,11 +5,15 @@
 
 ## Basic commands
 
-| Task                 | Command 						|
-| :---                 | :---   						|
-| Query IP-adress(es)  | `ip a`  						|
-| dockerlab aanmaken   | `vagrant up dockerlab` 		|
-| dockerlab updaten    | `vagrant provision dockerlab` 	|
+| Task                 	| Command 							|
+| :---                 	| :---   							|
+| Query IP-adress(es)  	| `ip a`  							|
+| dockerlab aanmaken   	| `vagrant up dockerlab` 			|
+| dockerlab updaten    	| `vagrant provision dockerlab` 	|
+| stat Docker engine	| `systemctl status docker`			|
+| check TCP ports in use| `sudo ss -tlnp`					|
+| list running Dockers 	| `docker ps`						|
+| list Docker images	| `docker images`					|
 
 ## Git workflow
 

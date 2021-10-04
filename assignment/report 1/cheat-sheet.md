@@ -14,6 +14,10 @@
 | check TCP ports in use| `sudo ss -tlnp`					|
 | list running Dockers 	| `docker ps`						|
 | list Docker images	| `docker images`					|
+| launch alpine interactively and shell | `docker run -i -t --name alpine alpine`|
+| show alpine hostname | `docker exec -t alpine /bin/hostname` |
+| show container ip | `docker exec -t alpine /sbin/ip a` |
+| enter shell | docker exec -i -t alpine /bin/sh` |
 
 ## Git workflow
 

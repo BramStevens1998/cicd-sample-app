@@ -29,6 +29,24 @@
 
 ![DockerImages, 4 october 2021](img/DockerImages.PNG?raw=true)
 
+### Deel 1.2
+ - hostname container
+
+![Hostname, 4 october 2021](img/Hostname.PNG?raw=true)
+
+ - ip address container
+
+![Container IP, 4 october 2021](img/ContainerIP.PNG?raw=true)
+
+ - exit shell, still up?
+
+ ![Alpine up, 4 october 2021](img/AlpineRunning.PNG?raw=true)
+
+ - Docker image
+
+ ![Hello app, 4 october 2021](img/HelloApp.PNG?raw=true)
+
+
 ## Resources
 
 List all sources of useful information that you encountered while completing this assignment: books, manuals, HOWTO's, blog posts, etc.

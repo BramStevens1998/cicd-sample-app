@@ -10,7 +10,7 @@
 ## Lab
 ### Deel 1 
 web UI up and running
-![Home, 4 october 2021](img/HOME.png?raw=true)
+![Home, 4 october 2021](img/HOME.PNG?raw=true)
 
 ## Resources
 

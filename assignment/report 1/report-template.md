@@ -46,6 +46,35 @@
 
  ![Hello app, 4 october 2021](img/HelloApp.PNG?raw=true)
 
+### deel 1.3
+
+- Hello world tutum forward
+
+$ curl: http://localhost:49153/
+<html>
+<head>
+        <title>Hello world!</title>
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+        <style>
+        body {
+                background-color: white;
+                text-align: center;
+                padding: 50px;
+                font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+        }
+
+        #logo {
+                margin-bottom: 40px;
+        }
+        </style>
+</head>
+<body>
+        <img id="logo" src="logo.png" />
+        <h1>Hello world!</h1>
+        <h3>My hostname is 49b0d90eb2d8</h3>    </body>
+</html>
+
+
 
 ## Resources
 

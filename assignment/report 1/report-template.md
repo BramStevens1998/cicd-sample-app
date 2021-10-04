@@ -273,8 +273,6 @@ Query OK, 1 row affected (0.04 sec)
 - show tables
 
 ```console
-mysql> show tables
-    -> ^C
 mysql> show tables;
 +-----------------+
 | Tables_in_appdb |
@@ -298,7 +296,7 @@ mysql> select * from Catalog;
 
 ```
 
--stop and start db and check data
+- stop and start db and check data
 ```console
 vagrant@dockerlab:~$ docker stop db
 db

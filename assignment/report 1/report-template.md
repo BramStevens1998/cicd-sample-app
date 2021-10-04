@@ -50,7 +50,8 @@
 
 - Hello world tutum forward
 
-$ curl: http://localhost:49153/
+``` console
+    $ curl: http://localhost:49153/
 <html>
 <head>
         <title>Hello world!</title>
@@ -73,6 +74,8 @@ $ curl: http://localhost:49153/
         <h1>Hello world!</h1>
         <h3>My hostname is 49b0d90eb2d8</h3>    </body>
 </html>
+```
+
 
 
 

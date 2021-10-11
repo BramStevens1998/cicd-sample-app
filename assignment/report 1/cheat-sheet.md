@@ -10,7 +10,7 @@
 | Query IP-adress(es)  	| `ip a`  							|
 | dockerlab aanmaken   	| `vagrant up dockerlab` 			|
 | dockerlab updaten    	| `vagrant provision dockerlab` 	|
-| connect to docker | `vagrant ssh docker` |
+| connect to docker | `vagrant ssh dockerlab` |
 | stat Docker engine	| `systemctl status docker`			|
 | check TCP ports in use| `sudo ss -tlnp`					|
 | list running Dockers 	| `docker ps (-a)`						|
@@ -30,7 +30,7 @@
 | vagrant afsluiten | `vagrant halt` |
 | read file | `less FILENAME` |
 | build container image | `docker image build --tag local:static-site .`
-| ruun on forward port 8080 hostport 80 | `docker run -d -p 8080:80 --name nginx local:static-site` |
+| run on forward port 8080 hostport 80 | `docker run -d -p 8080:80 --name nginx local:static-site` |
 
 
 

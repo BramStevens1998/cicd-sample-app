@@ -376,6 +376,16 @@ vagrant@dockerlab:/vagrant/labs/static-website$ curl http://localhost:8080/
 
 ![custom container image, 4 october 2021](img/Cringe.PNG?raw=true)
 
+### deel 1.5
+
+- checksum
+
+```console
+vagrant@dockerlab:~$ docker image inspect alpine:latest | jq ".[]|.RootFS.Layers"
+[
+  "sha256:e2eb06d8af8218cfec8210147357a68b7e13f7c485b991c288c2d01dc228bb68"
+]
+```
 
 ## Resources
 

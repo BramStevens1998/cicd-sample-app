@@ -13,7 +13,7 @@ vagrant@dockerlab:~$ docker exec -it jenkins_server /bin/cat /var/jenkins_home/s
 ```
 ### 2.4 
 - admin aanmaken (passwd = oud bd)
-- 
+
 ![Admin, 11 october 2021](img/JenkinsAdmin.PNG?raw=true)
 
 - instance config

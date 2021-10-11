@@ -8,6 +8,8 @@
 | Task                | Command |
 | :---                | :---    |
 | Query IP-adress(es) | `ip a`  |
+| jenkins passwd | `docker exec -it jenkins_server /bin/cat /var/jenkins_home/secrets/initialAdminPassword` |
+
 
 ## Git workflow
 

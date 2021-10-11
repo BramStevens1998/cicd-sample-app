@@ -77,7 +77,7 @@
 ![Hello-world, 4 october 2021](img/Hello-world.PNG?raw=true)
 
 
-### deel 1.3
+### Deel 1.3
 
 - create and inspect Mysql-data
 
@@ -314,7 +314,7 @@ mysql> select * from Catalog;
 1 row in set (0.00 sec)
 
 ```
-### deel 1.4
+### Deel 1.4
 
 - build container image
 
@@ -376,7 +376,7 @@ vagrant@dockerlab:/vagrant/labs/static-website$ curl http://localhost:8080/
 
 ![custom container image, 4 october 2021](img/Cringe.PNG?raw=true)
 
-### deel 1.5
+### Deel 1.5
 
 - checksum
 

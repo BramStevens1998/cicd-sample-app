@@ -21,6 +21,7 @@
 | enter shell | `docker exec -i -t alpine /bin/sh` |
 | docker remove image | `docker rmi ID` |
 | docker remove | `docker rm NAME` |
+| detached container stoppen | `docker stop alpine alpine` |
 | sql container | `docker volume create mysql-data` |
 | check sql container | `docker volume inspect mysql-data` |
 | open mysql text condole | `docker exec -it db mysql -pletmein appdb` |
@@ -29,8 +30,11 @@
 | show website tree | `tree` |
 | vagrant afsluiten | `vagrant halt` |
 | read file | `less FILENAME` |
-| build container image | `docker image build --tag local:static-site .`
+| build container image | `docker image build --tag local:static-site .`|
 | run on forward port 8080 hostport 80 | `docker run -d -p 8080:80 --name nginx local:static-site` |
+| docker compose todo-app | `docker-compose up -d` |
+
+
 
 
 
